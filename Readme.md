@@ -1,1 +1,4 @@
-## Unsupervised Learning Final Project
+#Final Project for Unsupervised Learning
+This project is based on a Kaggle competition of Disease Symptom Prediction and can be found here (https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset). The original competition was designed to see if students could come up with a disease prediction score associated with symptoms. Here, I am using the data a bit differently as to not come up with the same exact project. My project here is to just do an unsupervised clustering of symptoms to see if there are general trends in disease and symptom correlation.
+
+I will use a hierarchical clustering and some other dimensionality reduction techniques to put the patients with similar symptoms together and to see if the clustering of symptoms leads to unique disease groups. Overall, the theroy is that patients with the exact same set of symptoms will separate from each other. This in reality isn't practical, but we'll see how well the symptoms separate.
